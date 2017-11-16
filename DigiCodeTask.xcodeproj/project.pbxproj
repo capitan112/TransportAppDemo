@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		404EEA2F1DDC7B78002AF1C6 /* TabController.m in Sources */ = {isa = PBXBuildFile; fileRef = 404EEA2C1DDC7B78002AF1C6 /* TabController.m */; };
+		404EEA301DDC7B78002AF1C6 /* TableViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 404EEA2E1DDC7B78002AF1C6 /* TableViewControllerBase.m */; };
+		409599CB1DD9D116006256BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 409599CA1DD9D116006256BA /* main.m */; };
+		409599CE1DD9D116006256BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 409599CD1DD9D116006256BA /* AppDelegate.m */; };
+		409599D41DD9D116006256BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409599D21DD9D116006256BA /* Main.storyboard */; };
+		409599D61DD9D116006256BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409599D51DD9D116006256BA /* Assets.xcassets */; };
+		409599D91DD9D116006256BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409599D71DD9D116006256BA /* LaunchScreen.storyboard */; };
+		40959A171DDC7577006256BA /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40959A151DDC7577006256BA /* CustomCell.swift */; };
+		40959A181DDC7577006256BA /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40959A161DDC7577006256BA /* CustomCell.xib */; };
+		40959A231DDC7591006256BA /* BusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40959A1A1DDC7591006256BA /* BusViewController.m */; };
+		40959A241DDC7591006256BA /* FlightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40959A1C1DDC7591006256BA /* FlightViewController.m */; };
+		40959A271DDC7591006256BA /* TrainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40959A221DDC7591006256BA /* TrainViewController.m */; };
+		40DE982E1DDF57880015A390 /* CEFoldAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DE982B1DDF57880015A390 /* CEFoldAnimationController.m */; };
+		40DE982F1DDF57880015A390 /* CEReversibleAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DE982D1DDF57880015A390 /* CEReversibleAnimationController.m */; };
+		40DE98351DDF57990015A390 /* UIImageViewAligned.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DE98321DDF57990015A390 /* UIImageViewAligned.m */; };
+		40DE98391DDF57A50015A390 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DE98381DDF57A50015A390 /* Schedule.swift */; };
+		40DE983F1DDF57AF0015A390 /* NetworkConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DE983C1DDF57AF0015A390 /* NetworkConnect.m */; };
+		40DE98401DDF57AF0015A390 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DE983E1DDF57AF0015A390 /* Reachability.m */; };
+		40DE98471DDF586E0015A390 /* UILabel+BarTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 40DE98461DDF586E0015A390 /* UILabel+BarTitle.m */; };
+		E2A670EDAA5AECC8A28743F2 /* Pods_DigiCodeTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D31DE381BA92EF7CCCDD331 /* Pods_DigiCodeTask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		404EEA2B1DDC7B78002AF1C6 /* TabController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabController.h; sourceTree = "<group>"; };
+		404EEA2C1DDC7B78002AF1C6 /* TabController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabController.m; sourceTree = "<group>"; };
+		404EEA2D1DDC7B78002AF1C6 /* TableViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewControllerBase.h; sourceTree = "<group>"; };
+		404EEA2E1DDC7B78002AF1C6 /* TableViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewControllerBase.m; sourceTree = "<group>"; };
+		409599C61DD9D116006256BA /* DigiCodeTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DigiCodeTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		409599CA1DD9D116006256BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		409599CC1DD9D116006256BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		409599CD1DD9D116006256BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		409599D31DD9D116006256BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		409599D51DD9D116006256BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		409599D81DD9D116006256BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		409599DA1DD9D116006256BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409599FE1DDB6B21006256BA /* DigiCodeTask-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DigiCodeTask-Bridging-Header.h"; sourceTree = "<group>"; };
+		40959A151DDC7577006256BA /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCell.swift; path = ViewControllers/CustomCell/CustomCell.swift; sourceTree = "<group>"; };
+		40959A161DDC7577006256BA /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomCell.xib; path = ViewControllers/CustomCell/CustomCell.xib; sourceTree = "<group>"; };
+		40959A191DDC7591006256BA /* BusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BusViewController.h; path = ViewControllers/BusViewController.h; sourceTree = "<group>"; };
+		40959A1A1DDC7591006256BA /* BusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BusViewController.m; path = ViewControllers/BusViewController.m; sourceTree = "<group>"; };
+		40959A1B1DDC7591006256BA /* FlightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlightViewController.h; path = ViewControllers/FlightViewController.h; sourceTree = "<group>"; };
+		40959A1C1DDC7591006256BA /* FlightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlightViewController.m; path = ViewControllers/FlightViewController.m; sourceTree = "<group>"; };
+		40959A211DDC7591006256BA /* TrainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrainViewController.h; path = ViewControllers/TrainViewController.h; sourceTree = "<group>"; };
+		40959A221DDC7591006256BA /* TrainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrainViewController.m; path = ViewControllers/TrainViewController.m; sourceTree = "<group>"; };
+		40DE981E1DDF35B10015A390 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		40DE982A1DDF57880015A390 /* CEFoldAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEFoldAnimationController.h; sourceTree = "<group>"; };
+		40DE982B1DDF57880015A390 /* CEFoldAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEFoldAnimationController.m; sourceTree = "<group>"; };
+		40DE982C1DDF57880015A390 /* CEReversibleAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEReversibleAnimationController.h; sourceTree = "<group>"; };
+		40DE982D1DDF57880015A390 /* CEReversibleAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEReversibleAnimationController.m; sourceTree = "<group>"; };
+		40DE98311DDF57990015A390 /* UIImageViewAligned.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageViewAligned.h; sourceTree = "<group>"; };
+		40DE98321DDF57990015A390 /* UIImageViewAligned.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageViewAligned.m; sourceTree = "<group>"; };
+		40DE98381DDF57A50015A390 /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		40DE983B1DDF57AF0015A390 /* NetworkConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkConnect.h; sourceTree = "<group>"; };
+		40DE983C1DDF57AF0015A390 /* NetworkConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkConnect.m; sourceTree = "<group>"; };
+		40DE983D1DDF57AF0015A390 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		40DE983E1DDF57AF0015A390 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		40DE98451DDF586E0015A390 /* UILabel+BarTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+BarTitle.h"; sourceTree = "<group>"; };
+		40DE98461DDF586E0015A390 /* UILabel+BarTitle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BarTitle.m"; sourceTree = "<group>"; };
+		4D31DE381BA92EF7CCCDD331 /* Pods_DigiCodeTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DigiCodeTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C9460641A5403708E3E92D /* Pods-DigiCodeTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigiCodeTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DigiCodeTask/Pods-DigiCodeTask.debug.xcconfig"; sourceTree = "<group>"; };
+		F28C3585424ADD951EDCB403 /* Pods-DigiCodeTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DigiCodeTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-DigiCodeTask/Pods-DigiCodeTask.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		409599C31DD9D116006256BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A670EDAA5AECC8A28743F2 /* Pods_DigiCodeTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1383C32F522AA71A9F86C091 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83C9460641A5403708E3E92D /* Pods-DigiCodeTask.debug.xcconfig */,
+				F28C3585424ADD951EDCB403 /* Pods-DigiCodeTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		404EEA2A1DDC7B78002AF1C6 /* RootVC */ = {
+			isa = PBXGroup;
+			children = (
+				404EEA2B1DDC7B78002AF1C6 /* TabController.h */,
+				404EEA2C1DDC7B78002AF1C6 /* TabController.m */,
+				404EEA2D1DDC7B78002AF1C6 /* TableViewControllerBase.h */,
+				404EEA2E1DDC7B78002AF1C6 /* TableViewControllerBase.m */,
+			);
+			path = RootVC;
+			sourceTree = "<group>";
+		};
+		409599BD1DD9D116006256BA = {
+			isa = PBXGroup;
+			children = (
+				409599C81DD9D116006256BA /* DigiCodeTask */,
+				409599C71DD9D116006256BA /* Products */,
+				1383C32F522AA71A9F86C091 /* Pods */,
+				4552E5DA57128C5932B7FE90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		409599C71DD9D116006256BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				409599C61DD9D116006256BA /* DigiCodeTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		409599C81DD9D116006256BA /* DigiCodeTask */ = {
+			isa = PBXGroup;
+			children = (
+				409599CC1DD9D116006256BA /* AppDelegate.h */,
+				409599CD1DD9D116006256BA /* AppDelegate.m */,
+				409599D21DD9D116006256BA /* Main.storyboard */,
+				40DE983A1DDF57AF0015A390 /* Network */,
+				40DE98371DDF57A50015A390 /* Model */,
+				40DE98301DDF57990015A390 /* Categories */,
+				40DE98291DDF57880015A390 /* Animation */,
+				404EEA2A1DDC7B78002AF1C6 /* RootVC */,
+				409599F41DDB642C006256BA /* ViewControllers */,
+				409599D51DD9D116006256BA /* Assets.xcassets */,
+				409599D71DD9D116006256BA /* LaunchScreen.storyboard */,
+				409599DA1DD9D116006256BA /* Info.plist */,
+				409599C91DD9D116006256BA /* Supporting Files */,
+			);
+			path = DigiCodeTask;
+			sourceTree = "<group>";
+		};
+		409599C91DD9D116006256BA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				409599FE1DDB6B21006256BA /* DigiCodeTask-Bridging-Header.h */,
+				409599CA1DD9D116006256BA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		409599F31DDB6420006256BA /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				40959A151DDC7577006256BA /* CustomCell.swift */,
+				40959A161DDC7577006256BA /* CustomCell.xib */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		409599F41DDB642C006256BA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				40959A1B1DDC7591006256BA /* FlightViewController.h */,
+				40959A1C1DDC7591006256BA /* FlightViewController.m */,
+				40959A191DDC7591006256BA /* BusViewController.h */,
+				40959A1A1DDC7591006256BA /* BusViewController.m */,
+				40959A211DDC7591006256BA /* TrainViewController.h */,
+				40959A221DDC7591006256BA /* TrainViewController.m */,
+				409599F31DDB6420006256BA /* CustomCell */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		40DE98291DDF57880015A390 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				40DE982A1DDF57880015A390 /* CEFoldAnimationController.h */,
+				40DE982B1DDF57880015A390 /* CEFoldAnimationController.m */,
+				40DE982C1DDF57880015A390 /* CEReversibleAnimationController.h */,
+				40DE982D1DDF57880015A390 /* CEReversibleAnimationController.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		40DE98301DDF57990015A390 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				40DE98311DDF57990015A390 /* UIImageViewAligned.h */,
+				40DE98321DDF57990015A390 /* UIImageViewAligned.m */,
+				40DE98451DDF586E0015A390 /* UILabel+BarTitle.h */,
+				40DE98461DDF586E0015A390 /* UILabel+BarTitle.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		40DE98371DDF57A50015A390 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40DE98381DDF57A50015A390 /* Schedule.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		40DE983A1DDF57AF0015A390 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				40DE983B1DDF57AF0015A390 /* NetworkConnect.h */,
+				40DE983C1DDF57AF0015A390 /* NetworkConnect.m */,
+				40DE983D1DDF57AF0015A390 /* Reachability.h */,
+				40DE983E1DDF57AF0015A390 /* Reachability.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		4552E5DA57128C5932B7FE90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				40DE981E1DDF35B10015A390 /* CoreGraphics.framework */,
+				4D31DE381BA92EF7CCCDD331 /* Pods_DigiCodeTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		409599C51DD9D116006256BA /* DigiCodeTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409599DD1DD9D117006256BA /* Build configuration list for PBXNativeTarget "DigiCodeTask" */;
+			buildPhases = (
+				18EFDCA7538DD442C0C69851 /* [CP] Check Pods Manifest.lock */,
+				409599C21DD9D116006256BA /* Sources */,
+				409599C31DD9D116006256BA /* Frameworks */,
+				409599C41DD9D116006256BA /* Resources */,
+				8C8CDD1BD2DB4460D6EE3607 /* [CP] Embed Pods Frameworks */,
+				93D54C50339183C8EE67E174 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DigiCodeTask;
+			productName = DigiCodeTask;
+			productReference = 409599C61DD9D116006256BA /* DigiCodeTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		409599BE1DD9D116006256BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = DataArt;
+				TargetAttributes = {
+					409599C51DD9D116006256BA = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = M3S4J75265;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 409599C11DD9D116006256BA /* Build configuration list for PBXProject "DigiCodeTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 409599BD1DD9D116006256BA;
+			productRefGroup = 409599C71DD9D116006256BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				409599C51DD9D116006256BA /* DigiCodeTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		409599C41DD9D116006256BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40959A181DDC7577006256BA /* CustomCell.xib in Resources */,
+				409599D91DD9D116006256BA /* LaunchScreen.storyboard in Resources */,
+				409599D61DD9D116006256BA /* Assets.xcassets in Resources */,
+				409599D41DD9D116006256BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18EFDCA7538DD442C0C69851 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8C8CDD1BD2DB4460D6EE3607 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DigiCodeTask/Pods-DigiCodeTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93D54C50339183C8EE67E174 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DigiCodeTask/Pods-DigiCodeTask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		409599C21DD9D116006256BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40959A241DDC7591006256BA /* FlightViewController.m in Sources */,
+				404EEA2F1DDC7B78002AF1C6 /* TabController.m in Sources */,
+				40DE982E1DDF57880015A390 /* CEFoldAnimationController.m in Sources */,
+				40DE98391DDF57A50015A390 /* Schedule.swift in Sources */,
+				40959A271DDC7591006256BA /* TrainViewController.m in Sources */,
+				40DE98471DDF586E0015A390 /* UILabel+BarTitle.m in Sources */,
+				40959A171DDC7577006256BA /* CustomCell.swift in Sources */,
+				40DE982F1DDF57880015A390 /* CEReversibleAnimationController.m in Sources */,
+				40959A231DDC7591006256BA /* BusViewController.m in Sources */,
+				409599CE1DD9D116006256BA /* AppDelegate.m in Sources */,
+				404EEA301DDC7B78002AF1C6 /* TableViewControllerBase.m in Sources */,
+				40DE98351DDF57990015A390 /* UIImageViewAligned.m in Sources */,
+				409599CB1DD9D116006256BA /* main.m in Sources */,
+				40DE983F1DDF57AF0015A390 /* NetworkConnect.m in Sources */,
+				40DE98401DDF57AF0015A390 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		409599D21DD9D116006256BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				409599D31DD9D116006256BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		409599D71DD9D116006256BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				409599D81DD9D116006256BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		409599DB1DD9D117006256BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		409599DC1DD9D117006256BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		409599DE1DD9D117006256BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C9460641A5403708E3E92D /* Pods-DigiCodeTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = M3S4J75265;
+				INFOPLIST_FILE = DigiCodeTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dataart.DigiCodeTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DigiCodeTask-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		409599DF1DD9D117006256BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F28C3585424ADD951EDCB403 /* Pods-DigiCodeTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = M3S4J75265;
+				INFOPLIST_FILE = DigiCodeTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dataart.DigiCodeTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DigiCodeTask-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		409599C11DD9D116006256BA /* Build configuration list for PBXProject "DigiCodeTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409599DB1DD9D117006256BA /* Debug */,
+				409599DC1DD9D117006256BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409599DD1DD9D117006256BA /* Build configuration list for PBXNativeTarget "DigiCodeTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409599DE1DD9D117006256BA /* Debug */,
+				409599DF1DD9D117006256BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 409599BE1DD9D116006256BA /* Project object */;
+}
